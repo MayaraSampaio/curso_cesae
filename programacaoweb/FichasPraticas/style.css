@@ -1,5 +1,30 @@
-h1{
-    color:rebeccapurple;
-    font-size: xx-large;
-    font-family: "BBH Sans Bogle", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCF9EA;
+    color:#410e2a;
+    font-family: "Arimo", sans-serif;
+    font-weight: 700;
+}
+header{
+    background-color: rgb(146, 98, 146);
+    padding: 20px;
+    text-align: left;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.about{
+
+}
+#cabecalho{
+    font-size: 60px;
+}
+.abilities{
+    padding: 50px;
 }
