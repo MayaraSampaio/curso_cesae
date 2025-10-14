@@ -1,0 +1,32 @@
+.contacts {
+    display:flex;
+    background-color: black;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+  }
+
+@media screen and (max-width: 600px) {
+    .contacts {
+        flex-direction: column;
+        padding: 20px;
+        margin: 10px;
+    }    
+}
+.contacts div {
+ flex-grow: 1;
+ background-color: black;
+ margin :5px;
+ padding :5px 5px 5px;
+ border: white 1px solid;
+}
+#h2-contact {
+    background-color: black;
+    padding: 5px 10px 10px;
+    margin: 5px;
+    width: 100%;
+    text-align: left;
+}

@@ -1,101 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mayara Sampaio</title>
-</head>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-nav.css">
+    <link rel="stylesheet" href="css/css-perfil.css">
+    <link rel="stylesheet" href="css/skills-style.css">
+    <link rel="stylesheet" href="css/contacts-style.css">
+
 <body>
     <main>
-        <nav> </nav>
-        
         <!--About me -->
-        <section>            
-            <div class="about">
-            <header>
-                <section>
+        <header id=" about">
+            <!-- Menu de navegação -->
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Abilities</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="perfil">
+                <!-- Imagem de perfil principal -->
+                <div id="imagem-perfil">
                     <img src="img/1744538502245.png" alt="foto perfil" width="200px">
-                    <h1 id="cabecalho"> Mayara Sampaio</h1> 
-                 </section>
-                 <section>
+                </div>
+                <!-- Texto de apresentação -->
+                <div class="texto-perfil">
+                    <h1> Mayara Sampaio</h1>
                     <p>Me chamo Mayara, tenho 28 anos ...</p>
-                </section>             
-            </header>
-        </div>
-        </section>
-        
-        <!-- habilidades e experiências -->
-        <section>
-            <div class="abilities">
-                    <p>Habilidades:</p>
-                       
-                            <ul>
-                                <li style="list-style-type: circle;">Spring Boot</li>
-                                <li style="list-style-type: circle;">Relational Database</li>
-                                <li style="list-style-type: circle;">Linux</li>
-                                <li style="list-style-type: circle;">Itil</li>
-                            </ul>    
-                               
-                                     
-            </div>
-        </section>              
-        
-        <!-- Contatos --> 
-        <section>
-            <div >
-                    <p>Redes sociais:</p>              
-                    <a href="https://github.com/MayaraSampaio">GitHub</a>
-                    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">linkedin</a>
-                              
-            </div>  
-        </section>
-            
+                </div>
 
-        <!-- Forms para entrar em contato -->
-         <section>
-            <div class="formsContact">
-                <p><h2>Entre em contato comigo!</h2></p>
-                <form action="" method="post"></form>
+            </div>
+
+        </header>
+        <!-- Skills -->
+        <section class="skills">
+            <div id="h2-skill">
+                <h2>Skills</h2>
+            </div>
+            <!-- Habilidades Técnicas -->
+            <div class="Habilidades">
+                <h3>Habilidades Técnicas:</h3>
+                <ul>
+                    <li style="list-style-type: circle;">Spring Boot</li>
+                    <li style="list-style-type: circle;">Relational Database</li>
+                    <li style="list-style-type: circle;">Linux</li>
+                    <li style="list-style-type: circle;">Itil</li>
+                </ul>
+            </div>
+            <!-- Lista de Certificações -->
+            <div class="certificacoes">
+                <h3>Certificações:</h3>
+                <ul>
+                    <li style="list-style-type: circle;">GitHubFoundation</li>
+                </ul>
+            </div>
+            <!--Lista de Formação Academica-->
+            <div class="formacao">
+                <h3>Formação Academica:</h3>
+                <ul>
+                    <li style="list-style-type: circle;">Análise e Desenvolvimento de Sistemas - UNIFOR</li>
+                    <li style="list-style-type: circle;">Software Developer - CESAE</li>
+                </ul>
+            </div>
+
+        </section>
+        <!-- Contatos -->
+        <section class="contacts">
+            <h3 id="h2-contact">Contact Me</h3>
+            <!-- redes sociais -->
+            <div>
+                <h3>Redes sociais:</h3>
+                <a href="https://github.com/MayaraSampaio">GitHub</a>
+                <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><i class="fa-brands fa-linkedin"></i>linkedin</a>
+            </div>
+            <!-- Forms para entrar em contato -->
+            <div>
+                <form>
                     <div>
                         <label for="nome">Nome</label>
-                        <input type="text" id="nome" name="nome" placeholder="
-                        Digite seu nome">
-                    </div>    
-                    
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                    </div>
+
                     <div>
                         <label for="email">Email</label>
-                        <input type="text" id="email" name="email">
-                        
+                        <input type="text" id="email" name="email" placeholder="Digite seu email">
                     </div>
 
                     <div>
-                        <label for="msg">Mensagem</label>
+                        <label for="msg">Mensagem</label><br>
                         <textarea name="msg" id="msg" placeholder="Digite sua mensagem"></textarea>
-                        <p></p>
                     </div>
-            </div>    
-         </section>
-        
-        <!-- Conteúdo da tabela -->   
-        <section>
-            <div>
-                <table>               
-                        <tr>
-                            <!-- Headers da tabela -->
-                            <th>Experiências</th>
-                            <th>Tempo de Experiência</th>                 
-                        </tr>
-
-                        <tr>
-                            <!--Dados da tabela  -->
-                            <td>Suporte</td>
-                            <td>1 ano</td>
-                        </tr>
-                </table>                
+                </form>
             </div>
-        </section>     
-     
-         
-     </body>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Mayara Sampaio - 2025</p>
+    </footer>
+</body>
+
 </html>

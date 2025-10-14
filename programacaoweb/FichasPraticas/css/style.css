@@ -5,26 +5,30 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #FCF9EA;
-    color:#410e2a;
+    background-color: black;
+    color: white;
     font-family: "Arimo", sans-serif;
     font-weight: 700;
 }
 header{
-    background-color: rgb(146, 98, 146);
-    padding: 20px;
+    margin: 0;
     text-align: left;
 }
+
 main{
     display: flex;
     flex-direction: column;
 }
-.about{
+footer{
+    text-align: center;
+    background-color: #5c004e;
+    color: white;
+    padding: 10px 0px;
+    position: relative;
+    bottom: 100%;
+    width: 100%;
+    
+}
 
-}
-#cabecalho{
-    font-size: 60px;
-}
-.abilities{
-    padding: 50px;
-}
+ 
+
